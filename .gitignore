@@ -206,5 +206,14 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-# Dataset
+# Ignore CSV files
 dataset/*.csv
+# Ignore numpy files
+data/*.npy
+# Ignore models
+model/*
+
+# Allow .gitkeep to create folders
+!dataset/.gitkeep
+!data/.gitkeep
+!model/.gitkeep

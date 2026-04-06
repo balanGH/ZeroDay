@@ -211,9 +211,8 @@ dataset/*.csv
 # Ignore numpy files
 data/*.npy
 # Ignore models
-model/*
+REAPER/model/*
+RVIT/model/*
 
-# Allow .gitkeep to create folders
-!dataset/.gitkeep
-!data/.gitkeep
-!model/.gitkeep
+# mac 
+.DS_Store
